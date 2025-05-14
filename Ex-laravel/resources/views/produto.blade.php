@@ -11,9 +11,9 @@
     <h1>produtossss</h1>
 
     <button type="button" class="btn btn-primary" disabled>Primary button</button>
-<button type="button" class="btn btn-secondary" disabled>Button</button>
-<button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
-<button type="button" class="btn btn-outline-secondary" disabled>Button</button>
+    <button type="button" class="btn btn-secondary" disabled>Button</button>
+    <button type="button" class="btn btn-outline-primary" disabled>Primary button</button>
+    <button type="button" class="btn btn-outline-secondary" disabled>Button</button>
 
 
 
@@ -33,9 +33,9 @@
     </div>
     <div class="mb-3">
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-        <label class="form-check-label" for="disabledFieldsetCheck">
-          Can’t check this
+        <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" >
+        <label class="form-check-label" >
+          Cant check this
         </label>
       </div>
     </div>
