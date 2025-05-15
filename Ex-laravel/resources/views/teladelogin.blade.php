@@ -4,16 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+    <style>
+
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        body {
+        height: 100%;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        background-color: aliceblue;
+   
+        background-image: url('kurp8.jpg');
+        background-size: cover;
+        background-position: center;
+    
+    }
+        h1{
+            display: flex;
+            justify-content: center ;
+            padding: 20px;
+        }
+
+        form {
+
+        width: 400px;
+        padding: 40px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: antiquewhite;
+
+    }
+
+
+    .bnt-login{
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+       
+    
+    }
+
+
+       
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Login</h1>
+    
 
-    <button type="button" class="btn btn-primary" >Primary button</button>
-    <button type="button" class="btn btn-secondary" >Button</button>
-    <button type="button" class="btn btn-outline-primary" >Primary button</button>
-    <button type="button" class="btn btn-outline-secondary" >Button</button>
+<form action="">
+
+        <h1>Login</h1>
+
+        <div class="inf-login">
+            <label for="nome">Nome:  </label>
+            <input type="text" id="nome" name="nome" required> <br> <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id = "email" nome = "email" required> <br> <br>
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" nome = "senha" required> <br> <br>
+        </div>
+        
+        <div class="bnt-login">
+           <a href="paghome.html" class="btn btn-secondary">Enviar</a>
+        </div>
+        
+    </form>
 
 
 
