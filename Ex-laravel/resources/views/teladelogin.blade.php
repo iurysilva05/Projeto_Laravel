@@ -17,11 +17,12 @@
 
         body {
             height: 100%;
-            background-color: #f0f0f0;
+            
             font-family: Arial, sans-serif;
             background-color: aliceblue;
+            
 
-            background-image: url('kurp8.jpg');
+            /* Usando asset() para o caminho correto */
             background-size: cover;
             background-position: center;
 
@@ -61,7 +62,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: antiquewhite;
+            background-color: #00FFFF;
 
         }
 
@@ -79,6 +80,15 @@
             display: flex;
             flex-direction: column;
         }
+
+        a{
+            text-decoration: none;
+        }
+
+        .btn-secondary{
+            width: 200px;
+            background-color: blue;
+        }
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
@@ -86,7 +96,7 @@
 
 <body>
 
-        <header>
+        <!-- <header>
 
         <img src="" alt="">
 
@@ -98,10 +108,12 @@
                 <li><a href="">contato</a></li>
             </ul>
         </nav>
-        </header>
+        </header> -->
+
+          
 
 
-    <form action="">
+    <form action="">    
 
         <h1>Login</h1>
 
@@ -130,7 +142,7 @@
         <br>
 
         <div class="bnt-login">
-            <a href="paghome.html" class="btn btn-secondary">Enviar</a>
+            <a  class="btn btn-secondary" href="/produto">Enviar</a>
         </div>
 
     </form>
